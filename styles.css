@@ -23,26 +23,42 @@ body {
 color:red;
 	
 }
-.first{
-	background-color:white;
-	color:black;
-	
-	widht:50px;
-	padding:10px;
-	font-size:22px;
+
+
+article p:first-child {
+  background-color: black;
+  color: white;
+  padding: 10px;
 }
-.second{
-	background-color:darkgray;
-	color:black;
-	height:20px;
-	widht:50px;
-	padding:10px;
-	
+
+article p:nth-child(2) {
+  color: black;
+  padding: 10px;
 }
-.third{
+
+article p:last-child {
+  color: red;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  background-color: gray;
+  width: 50%;
+  padding: 10px;
+}
+
+ul li:nth-child(odd) {
+  background-color: white;
+}
+ul li:nth-child(3){
 	background-color:pink;
-	color:black;
-	height:20px;
-	widht:50px;
-	padding:10px;
+}
+ul li:first-child,
+ul li:last-child {
+  font-size: 22px;
 }
