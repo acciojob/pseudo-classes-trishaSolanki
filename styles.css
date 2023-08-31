@@ -1,12 +1,15 @@
 /*  your css code here. If applicable */
-
+:root {
+  --page-background-color: rgb(135, 206, 235);
+}
 
 body {
-  background-color: rgb(135, 206, 235);
+  background-color: var(--page-background-color);
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
 }
+
 .container {
   max-width: 800px;
   margin: 0 auto;
