@@ -1,6 +1,6 @@
 /*  your css code here. If applicable */
 :root {
-  --page-background-color: rgb(135, 206, 235);
+  --page-background-color:skyblue;
 }
 
 body {
@@ -23,8 +23,6 @@ body {
 color:red;
 	
 }
-
-
 article p:first-child {
   background-color: black;
   color: white;
