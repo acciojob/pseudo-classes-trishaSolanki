@@ -1,1 +1,35 @@
 /*  your css code here. If applicable */
+body{
+	background-color:rgb(135, 206, 235);
+}
+.text{
+	background-color:black;
+	color:white;
+}
+.text-1{
+color:red;
+	
+}
+.first{
+	background-color:white;
+	color:black;
+	
+	widht:50px;
+	padding:10px;
+	font-size:22px;
+}
+.second{
+	background-color:darkgray;
+	color:black;
+	height:20px;
+	widht:50px;
+	padding:10px;
+	
+}
+.third{
+	background-color:pink;
+	color:black;
+	height:20px;
+	widht:50px;
+	padding:10px;
+}
