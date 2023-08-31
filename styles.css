@@ -1,10 +1,8 @@
 /*  your css code here. If applicable */
-:root {
-  --page-background-color: rgb(135, 206, 235);
-}
+
 
 body {
-  background-color: var(--page-background-color);
+  background-color: rgb(135, 206, 235);
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
